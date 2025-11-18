@@ -1,9 +1,12 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Features from './components/Features';
-import HowItWorks from './components/HowItWorks';
+import TabsFeatures from './components/TabsFeatures';
+import Partners from './components/Partners';
+import WideCTA from './components/WideCTA';
+import TrustStats from './components/TrustStats';
+import FAQ from './components/FAQ';
+import ContactSummary from './components/ContactSummary';
 import Pros from './components/Pros';
-import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,10 +15,13 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <Features />
-        <HowItWorks />
+        <TabsFeatures />
+        <Partners />
         <Pros />
-        <Testimonials />
+        <TrustStats />
+        <FAQ />
+        <WideCTA />
+        <ContactSummary />
       </main>
       <Footer />
     </div>

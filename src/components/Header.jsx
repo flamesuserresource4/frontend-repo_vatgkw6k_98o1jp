@@ -7,24 +7,24 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Left: Logo */}
           <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-full bg-[#111111] text-[#FFF7ED] flex items-center justify-center text-sm font-semibold shadow-sm">SR</div>
-            <span className="text-[19px] font-semibold tracking-tight text-[#111111]">Swift Reza</span>
+            <a href="/" className="h-9 w-9 rounded-full bg-[#111111] text-[#FFF7ED] flex items-center justify-center text-sm font-semibold shadow-sm">SR</a>
+            <a href="/" className="text-[19px] font-semibold tracking-tight text-[#111111]">Swift Reza</a>
           </div>
 
           {/* Center: Nav */}
           <nav className="hidden md:flex items-center gap-8 text-sm text-[#6B7280]">
-            <a href="#features" className="hover:text-[#111111] transition-colors">Fonctionnalités</a>
-            <a href="#how" className="hover:text-[#111111] transition-colors">Comment ça marche</a>
-            <a href="#pros" className="hover:text-[#111111] transition-colors">Espace Pros</a>
-            <a href="#avis" className="hover:text-[#111111] transition-colors">Avis</a>
+            <a href="/solutions" className="hover:text-[#111111] transition-colors">Solutions</a>
+            <a href="/professionnels" className="hover:text-[#111111] transition-colors">Trouver un pro</a>
+            <a href="/a-propos" className="hover:text-[#111111] transition-colors">À propos</a>
+            <a href="/aide" className="hover:text-[#111111] transition-colors">Aide</a>
           </nav>
 
           {/* Right: CTAs */}
           <div className="hidden md:flex items-center gap-3">
-            <a href="#pros" className="inline-flex items-center gap-2 rounded-full border border-[#111111]/10 px-4 py-2 text-sm font-medium text-[#111111] hover:bg-black/5 transition-colors">
+            <a href="/inscription-professionnels" className="inline-flex items-center gap-2 rounded-full border border-[#111111]/10 px-4 py-2 text-sm font-medium text-[#111111] hover:bg-black/5 transition-colors">
               <User className="h-4 w-4" /> Espace Pros
             </a>
-            <a href="#search" className="inline-flex items-center gap-2 rounded-full bg-[#C9A646] px-5 py-2.5 text-sm font-semibold text-[#111111] shadow-sm hover:bg-[#b8953e] transition-colors">
+            <a href="/professionnels" className="inline-flex items-center gap-2 rounded-full bg-[#C9A646] px-5 py-2.5 text-sm font-semibold text-[#111111] shadow-sm hover:bg-[#b8953e] transition-colors">
               Réserver <ArrowRight className="h-4 w-4" />
             </a>
           </div>
